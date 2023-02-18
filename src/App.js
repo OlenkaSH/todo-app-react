@@ -1,8 +1,15 @@
-import logo from "./logo.svg";
 import "./App.css";
+import TodoItem from "./components/TodoItem";
 
 function App() {
-  return <div className="App">This is a todo-app made with React.js</div>;
+  return (
+    <div className="todo-list">
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+    </div>
+  );
 }
 
 export default App;
